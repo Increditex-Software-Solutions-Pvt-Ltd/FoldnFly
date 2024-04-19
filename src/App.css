@@ -38,7 +38,7 @@ body{
     font-size: 11px;
 }
 .small{
-    font-size: 13.6px;
+    font-size: 13.9px;
 }
 .normal{
     font-size: 14.4px;
@@ -48,6 +48,9 @@ body{
 }
 .x-big{
     font-size: 16px;
+}
+.x-large{
+    font-size: 28px;
 }
 .nav-item{
     list-style: none !important;
@@ -69,10 +72,28 @@ body{
     top: 20px;
     right: 20px;
 }
+.left-air-icon{
+    top: 20px;
+    left: 20px;
+}
 .air-icon i{
     font-size: 23px;
     color: rgb(197, 197, 197);
 }
+.aniplane{
+    animation: rotateplane 5s infinite linear;
+}
+@keyframes rotateplane {
+    0% {
+        /* Start with no rotation, translate X, and rotate to the current angle */
+        transform: rotate(0deg) translateX(0px) rotate(0deg);
+    }
+    100% {
+        /* End with a full 360 degrees rotation, translate X, and rotate -360 degrees */
+        transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    }
+}
+
 .sidebox{
     border-top: 10px solid #093f7d !important;
    
@@ -106,26 +127,34 @@ body{
 }
  .difficultyeasy{
     color:#90ee90;
+    border-color:#90ee90;
     text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
     z-index: 10;
+    transition: all 0.5s ease;
 }
  .difficultymedium{
     color:#ff0;
+    border-color:#ff0;
     text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
     z-index: 10;
+    transition: all 0.5s ease;
 }
  .difficultyhard{
     color:orange;
+    border-color:orange;
     text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+    transition: all 0.5s ease;
     z-index: 10;
 }
  .difficultyexpert{
     color:#ff6767;
+    border-color:#ff6767;
     text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+    transition: all 0.5s ease;
     z-index: 10;
 }
 .tags .distance{
-    font-size: 14px;
+    transition: all 0.5s ease;
     color: #eee;
     text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
 }
@@ -206,6 +235,9 @@ body{
 }
 .stepscard:hover img{
     transform: scale(1.08) ;
+}
+.kidCard{
+   transition: all 0.5s ease;
 }
 
 

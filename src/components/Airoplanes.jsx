@@ -89,7 +89,7 @@ const Airoplanes = () => {
                     <div
                       className={`${
                         mode
-                          ? "kidCard position-relative card rounded-5 border-5"
+                          ? `kidCard position-relative card rounded-5 border-5 ${getDifficultyClass(plane.difficulty)}`
                           : "airoplanecard card position-relative rounded-0"
                       }`}
                       style={{ cursor: "pointer", overflow: "hidden" }}
@@ -111,21 +111,23 @@ const Airoplanes = () => {
                       />
                       <span className="aironame x-big m-2">{plane.name}</span>
                       {plane.icon === "scissors" && (
-                        <span className="scissor">
+                        <span className="scissor m-2">
                           <FontAwesomeIcon icon={faScissors} />
                         </span>
                       )}
 
                       <div className="tags">
                         <span
-                          className={`difficultylevel big ${getDifficultyClass(
+                          className={mode ? `difficultylevel x-large ${getDifficultyClass(
+                            plane.difficulty
+                          )}`:`difficultylevel big ${getDifficultyClass(
                             plane.difficulty
                           )}`}
                         >
                           {plane.difficulty}
                         </span>
                         <br />
-                        <span className="distance">
+                        <span className={mode ? `x-big distance`:`distance small`}>
                           <FontAwesomeIcon className="me-2" icon={faTag} />
                           {plane.distance}
                         </span>

@@ -94,13 +94,14 @@ const Navbar = () => {
               </li>
               <div
                 className="form-check form-switch"
-                onClick={() => setMode(!mode)}
+                
               >
                 <input
                   className="form-check-input"
                   type="checkbox"
                   role="switch"
                   id="flexSwitchCheckDefault"
+                  onClick={() => setMode(!mode)}
                 />
                 <label
                   className="form-check-label small"
