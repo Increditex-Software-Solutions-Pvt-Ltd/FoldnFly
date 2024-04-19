@@ -246,8 +246,16 @@ export const PaperAirplanes = [
             stepDesc:"This design is a little fussy and takes some careful adjustments to get it to fly straight and level. Don't give up! A staple in the front will keep the fuselage from popping open and will add a little weight in the right place. Try bending the trailing edges of the wings up or down to adjust how it flies. Read our article on how to steer a paper airplane for more tips."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/4/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/4/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/4/print_sample_2.png"
+        },
      ]
     },
     {
@@ -298,8 +306,16 @@ export const PaperAirplanes = [
             stepDesc:"The success of this paper airplane depends on how you fold the wings in the last few steps. If it doesn't fly well, back up two steps and try folding the wings at a slightly different angle. Experiment until you find what works best for you. Throw gently for best results. If it stalls and flops down, add more weight to the front."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/5/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/5/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/5/print_sample_2.png"
+        },
      ]
     },
     {
@@ -346,8 +362,16 @@ export const PaperAirplanes = [
             stepDesc:"For better performance, use a piece of tape on the bottom to hold the fuselage closed."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/6/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/6/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/6/print_sample_2.png"
+        },
      ]
     },
     {
@@ -398,8 +422,16 @@ export const PaperAirplanes = [
             stepDesc:"Experiment with the distances that you fold the tip back and forth to adjust how much weight is put into the nose. If you make the nose very heavy, you can make this airplane fly loops."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/7/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/7/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/7/print_sample_2.png"
+        },
      ]
     },
     {
@@ -458,8 +490,16 @@ export const PaperAirplanes = [
             stepDesc:"This design has wide wings and a short body which makes it unsuitable for fast speeds. Throw it very gently. If the airplane tends to flip over, you may have made it too short. Unfold it and repeat step 7 above with less of the tip folded back. This will make the body longer and a bit more stable. Use the ailerons to steer the paper airplane and make sure the wings have a dihedral angle."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/8/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/8/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/8/print_sample_2.png"
+        },
      ]
     },
     {
@@ -514,8 +554,16 @@ export const PaperAirplanes = [
             stepDesc:"This design works best when thrown gently, slightly upwards. The fancy crinkle folded wing shown in the picture is optional, but if you get it right it can make this airplane slowly rock back and forth."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/9/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/9/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/9/print_sample_2.png"
+        },
      ]
     },
     {   
@@ -565,8 +613,16 @@ export const PaperAirplanes = [
             stepDesc:"To throw this paper airplane, pinch the front from underneath until you get a good grip. The two sides will be at around 90 degrees to each other when you do this. Throw with medium force and use small adjustments of the tail to get it to fly level and straight. This glider tends to loop in circles instead of flying straight."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/10/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/10/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/10/print_sample_2.png"
+        },
      ]
     },
     {
@@ -612,8 +668,16 @@ export const PaperAirplanes = [
             stepDesc:"This airplane is a bit temperamental and requires some fine tuning of the ailerons to get it to perform well. Add a paper clip or small weight to the front to help. Make sure the folds are crisp and symmetrical and use a gentle toss."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/11/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/11/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/11/print_sample_2.png"
+        },
      ]
     },
     {
@@ -663,8 +727,16 @@ export const PaperAirplanes = [
             stepDesc:"This slow glider tends to float in big loops instead of going in a straight line. Avoid taping or closing up the front part of this paper airplane. The wide plow in the front is what makes it look like a boat and float slowly."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/12/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/12/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/12/print_sample_2.png"
+        },
      ]
     },
     {
@@ -710,8 +782,16 @@ export const PaperAirplanes = [
             stepDesc:"This paper airplane design likes to float slowly in large circles instead of flying straight. It has stiff wings, so feel free to throw it as hard as you want."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/13/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/13/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/13/print_sample_2.png"
+        },
      ]
     },
     {
@@ -757,8 +837,16 @@ export const PaperAirplanes = [
             stepDesc:"The wingtips in the final step can be folded either up or down depending on your preferences. Try both! Fold two of them up and two of them down for a dramatic look."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/14/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/14/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/14/print_sample_2.png"
+        },
      ]
     },
     {
@@ -820,8 +908,16 @@ export const PaperAirplanes = [
             stepDesc:"This paper airplane design likes to float slowly in large circles instead of flying straight. It has stiff wings, so feel free to throw it as hard as you want."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/15/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/15/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/15/print_sample_2.png"
+        },
      ]
     },
     {
@@ -873,8 +969,16 @@ export const PaperAirplanes = [
             stepDesc:"Fold the wingtips up a little bit for style if you want. This paper airplane design has difficulty going in a straight line. Embrace that flaw and enjoy the loops and twists that it takes through the air."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/16/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/16/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/16/print_sample_2.png"
+        },
      ]
     },
     {
@@ -930,8 +1034,16 @@ export const PaperAirplanes = [
             stepDesc:"Point the flaps down and throw slightly upwards and this paper airplane will flip upside down and return to you like a boomerang. Point the flaps up and throw hard to get a nice glide through the air."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/17/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/17/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/17/print_sample_2.png"
+        },
      ]
     },
     {
@@ -987,8 +1099,16 @@ export const PaperAirplanes = [
             stepDesc:"This paper airplane can fly really far, just not always in a straight line. Small adjustments to the wings can be made to get it to fly in loops or circles."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/18/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/18/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/18/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1048,8 +1168,16 @@ export const PaperAirplanes = [
             stepDesc:"Widen the body for the full eagle effect and carefully bend the wing feathers up or down to get it to fly level. This is not the best performing paper airplane, but it looks cool."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/19/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/19/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/19/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1099,8 +1227,16 @@ export const PaperAirplanes = [
             stepDesc:""
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/20/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/20/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/20/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1170,8 +1306,16 @@ export const PaperAirplanes = [
             stepDesc:"Give the wings an upward Y shape to improve performance. This dihedral angle will be more stable. To improve the flight characteristics, cut some aileron flaps on the back of the wings. These can be bent up or down to get this paper airplane to fly straight and level."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/21/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/21/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/21/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1225,8 +1369,16 @@ export const PaperAirplanes = [
             stepDesc:""
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/22/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/22/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/22/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1277,8 +1429,16 @@ export const PaperAirplanes = [
             stepDesc:"You can play around with the angle of the front stabilizing wings to adjust the flight characteristics of this airplane."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/23/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/23/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/23/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1333,8 +1493,16 @@ export const PaperAirplanes = [
             stepDesc:"Use some tape to keep the fuselage together and two smaller pieces of tape to keep the two levels of wing together. Experiment with the side stabilizer fins and add wing flaps to control the flight."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/24/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/24/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/24/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1397,8 +1565,16 @@ export const PaperAirplanes = [
             stepDesc:"Hold the wings in upward Y shape and use a piece of tape to hold the wings together at this angle. This dihedral angle will allow this glider to stay aloft longer."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/27/rect.webp"
+        },
+        {
+            print:"https://www.foldnfly.com/data/27/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/27/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1485,8 +1661,16 @@ export const PaperAirplanes = [
             stepDesc:"This is a reliable design that consistently performs well with long straight flights. It is not necessary to staple or tape the body shut. In fact, it works best if the V shape of the body is a 90 degree angle."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/28/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/28/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/28/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1544,8 +1728,16 @@ export const PaperAirplanes = [
             stepDesc:"Once you have adjusted the ailerons to get it to fly straight, this is a very reliable airplane that can go very far."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/29/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/29/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/29/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1619,8 +1811,16 @@ export const PaperAirplanes = [
             stepDesc:"Looking head on, adjust the wings until they look symmetrical, then throw it hard at a slight upwards angle to see how fast and far it can go."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/32/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/32/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/32/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1687,8 +1887,16 @@ export const PaperAirplanes = [
             stepDesc:"To steer this paper airplane, slightly bend the tail feathers up or down."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/33/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/33/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/33/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1760,8 +1968,16 @@ export const PaperAirplanes = [
             stepDesc:"The measurements above do not need to be exact, if you don't have a ruler handy. Add a staple at the center of mass (around 2 inches from the tip) to keep the fuselage together. Make sure it's symmetrical and let it fly!"
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/34/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/34/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/34/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1833,8 +2049,16 @@ export const PaperAirplanes = [
             stepDesc:"If your jet dives towards the ground, create some elevons on the wings and bend them up a little bit to get your paper jet to stay aloft longer."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/35/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/35/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/35/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1910,8 +2134,16 @@ export const PaperAirplanes = [
             stepDesc:"If you prefer the look of having the folds hidden inside the airplane, you can reverse the fold in step 12. This will make the airplane thicker, so you'll need to use some tape to keep it all together."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/36/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/36/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/36/print_sample_2.png"
+        },
      ]
     },
     {
@@ -1966,8 +2198,16 @@ export const PaperAirplanes = [
             stepDesc:"Use a small piece of tape to keep the airplane fuselage together. Reverse the direction of the flaps to get the paper airplane to spin in the other direction. Or, return the flaps to the neutral position if you want it to fly without spinning."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/37/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/37/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/37/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2018,8 +2258,16 @@ export const PaperAirplanes = [
             stepDesc:"If needed, add a piece of tape to reinforce the notch on the nose. Tie the other end of the rubber band to a small stick so you have something easy to hold."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/38/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/38/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/38/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2066,8 +2314,16 @@ export const PaperAirplanes = [
             stepDesc:"This steady glider is very reliable and requires few adjustments, but you can fold the tail flaps up or down as needed to get this paper airplane to fly level and straight."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/39/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/39/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/39/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2154,8 +2410,16 @@ export const PaperAirplanes = [
             stepDesc:"In our testing, this plane liked to fly in a big fast boomerang loop back to us. Try adjusting the tail fins, and you can get this design to do a few other tricks."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/40/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/40/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/40/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2213,8 +2477,16 @@ export const PaperAirplanes = [
             stepDesc:"Use a bit of tape to keep the paper airplane body tight together. A slight upward bend of the trailing wings can help it stay up longer. The triangle pieces pointing up in the middle looks like the cockpit where the pilot would sit, so draw a little pilot sitting in there, if you want."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/41/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/41/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/41/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2284,8 +2556,16 @@ export const PaperAirplanes = [
             stepDesc:"You can adjust how quickly this paper airplane spins through the air by bending the tail flaps more or less. Or, if you don't want it to spin at all, point the flaps in the same direction."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/42/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/42/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/42/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2344,8 +2624,16 @@ export const PaperAirplanes = [
             stepDesc:"The ideal angle between the two wings is around 120 degrees, a wide V shape. This dihedral angle will be more stable."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/43/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/43/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/43/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2400,8 +2688,16 @@ export const PaperAirplanes = [
             stepDesc:"The wing flaps folded in opposite directions will cause this paper plane to spiral through the air like a corkscrew. Adjust the wing flap angles to adjust the size of the spiral."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/44/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/44/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/44/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2471,8 +2767,16 @@ export const PaperAirplanes = [
             stepDesc:"Allow the body to remain open for best performance. Pinch it just enough to give your fingers something to grip. If it tends to dive, bend up some small flaps in the back."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/45/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/45/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/45/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2531,8 +2835,16 @@ export const PaperAirplanes = [
             stepDesc:"Use a bit of tape or a staple to keep the body from opening up. Then use the flaps that you cut to adjust the flight of your paper airplane to get it to fly a loop. If it doesn't loop, bend the flaps up. If the loop is too tight, bend the flaps down."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/46/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/46/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/46/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2580,8 +2892,16 @@ export const PaperAirplanes = [
             stepDesc:"Use some tape on the place that you hold to keep it from falling apart, but don't tape the body flat. You want it to look like a wedge or cone flying through the air."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/47/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/47/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/47/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2637,8 +2957,16 @@ export const PaperAirplanes = [
             stepDesc:"Because this paper airplane has distinct wings that are separate from the tail, its one of the few designs that can use ailerons instead of elevons to steer the airplane."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/48/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/48/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/48/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2706,8 +3034,16 @@ export const PaperAirplanes = [
             stepDesc:"Use a small piece of tape to keep the front part together and make small adjustments to the fins if necessary for level flight. Throw at about 45 degrees with full force for the longest flights."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/49/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/49/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/49/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2761,8 +3097,16 @@ export const PaperAirplanes = [
             stepDesc:"The thickness of the layers of paper sometimes causes the front to rip a little, creating a cluster of three points. Thats ok!"
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/50/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/50/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/50/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2824,8 +3168,16 @@ export const PaperAirplanes = [
             stepDesc:"Use a tiny bit of tape to keep the paper airplane together while flying. For maximum distance, throw as hard as you can at a 45 degree upward angle."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/51/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/51/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/51/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2887,8 +3239,16 @@ export const PaperAirplanes = [
             stepDesc:"Put a staple in the body of the airplane near the center of mass to keep the fuselage tightly together. Throw as hard as you want at a slight upward angle and this paper airplane design will fly to the horizon."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/52/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/52/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/52/print_sample_2.png"
+        },
      ]
     },
     {
@@ -2934,8 +3294,16 @@ export const PaperAirplanes = [
             stepDesc:"Use a staple near the center of mass to keep the body together while flying. It will probably spin during flight. If you don't like this, make sure the wings are perfectly symmetrical and bent at the same angle. You can use small adjustments to the back of the wings to eliminate the spinning."
         },
      ],
-     downloadprint:[
-
+      downloadprint:[
+        {
+            print:"https://www.foldnfly.com/data/53/print_sample_0.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/53/print_sample_1.png"
+        },
+        {
+            print:"https://www.foldnfly.com/data/53/print_sample_2.png"
+        },
      ]
     },
 ]
