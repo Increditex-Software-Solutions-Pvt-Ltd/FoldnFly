@@ -18,7 +18,7 @@ const Headersection = ({ title, information }) => {
                                 {mode && <FontAwesomeIcon icon={faPaperPlane} className="text-white-50 fa-2x" />}
                             </div>
 
-                            <div className="air-icon position-absolute">
+                            <div className={mode ?`air-icon position-absolute anisecplane`:`air-icon position-absolute`}>
                                 <FontAwesomeIcon icon={faPaperPlane} className="text-white-50 fa-2x" />
                             </div>
                         </div>

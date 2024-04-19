@@ -1,170 +1,237 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+body {
     font-family: "Noto Sans Display", sans-serif;
     background-color: #fefefe;
     background-image: -webkit-linear-gradient(#eef .1em, transparent .1em);
     background-size: 100% 1.4em;
 }
-:root{
-    --light-color:#ffffff;
-    --main-color:#17569e;
-    --semilight-color:#7f7f7f;
+
+:root {
+    --light-color: #ffffff;
+    --main-color: #17569e;
+    --semilight-color: #7f7f7f;
 }
-.container{
+
+.container {
     max-width: 1150px !important;
 }
-.bg-light{
+
+.bg-light {
     background-color: var(--light-color) !important;
 }
-.bg-main{
+
+.bg-main {
     background-color: var(--main-color);
 }
-.bg-semilight{
+
+.bg-semilight {
     background-color: var(--semilight-color);
 }
-.navbarlink{
+
+.navbarlink {
     letter-spacing: 0.7px;
     font-weight: 600;
 }
-.navbarlink.active{
-    color: #0c0c0c !important;  
+
+.navbarlink.active {
+    color: #0c0c0c !important;
 }
-.text-secondary{
+
+.text-secondary {
     color: var(--semilight-color) !important;
 }
-.x-small{
+
+.x-small {
     font-size: 11px;
 }
-.small{
+
+.small {
     font-size: 13.9px;
 }
-.normal{
+
+.normal {
     font-size: 14.4px;
 }
-.big{
+
+.big {
     font-size: 14.9px;
 }
-.x-big{
+
+.x-big {
     font-size: 16px;
 }
-.x-large{
-    font-size: 28px;
+
+.x-large {
+    font-size: 24px;
 }
-.nav-item{
+
+.nav-item {
     list-style: none !important;
 }
-.fontlondrina{
+
+.fontlondrina {
     font-family: "Londrina Shadow", sans-serif;
     font-weight: 400;
     font-size: 39px;
-    text-shadow: 0 0 3px rgba(255,255,255,1);
+    text-shadow: 0 0 3px rgba(255, 255, 255, 1);
     letter-spacing: 2px;
 }
-.uppercard{
+
+.uppercard {
     background-image: -webkit-linear-gradient(rgba(255, 255, 255, .1) 2px, transparent 2px), -webkit-linear-gradient(0deg, rgba(255, 255, 255, .1) 2px, transparent 2px), -webkit-linear-gradient(rgba(255, 255, 255, .1) 1px, transparent 1px), -webkit-linear-gradient(0deg, rgba(255, 255, 255, .1) 1px, transparent 1px);
     background-size: 80px 80px, 80px 80px, 20px 20px, 20px 20px;
     background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
     border: 3px solid #093f7d;
 }
-.air-icon{
+
+.air-icon {
     top: 20px;
     right: 20px;
 }
-.left-air-icon{
+
+.left-air-icon {
     top: 20px;
     left: 20px;
 }
-.air-icon i{
+
+.air-icon i {
     font-size: 23px;
     color: rgb(197, 197, 197);
-}
-.aniplane{
-    animation: rotateplane 5s infinite linear;
-}
-@keyframes rotateplane {
-    0% {
-        /* Start with no rotation, translate X, and rotate to the current angle */
-        transform: rotate(0deg) translateX(0px) rotate(0deg);
-    }
-    100% {
-        /* End with a full 360 degrees rotation, translate X, and rotate -360 degrees */
-        transform: rotate(360deg) translateX(100px) rotate(-360deg);
-    }
+    transform: rotate(30deg);
 }
 
-.sidebox{
+.aniplane {
+    animation: rotate 7s infinite linear;
+}
+.anisecplane{
+    transform: rotate(270deg);
+    animation: rotatesec 7s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg) translate(0, 0);
+    }
+
+    25% {
+        transform: rotate(90deg) translate(200px, 200px);
+    }
+
+    50% {
+        transform: rotate(180deg) translate(0, 400px);
+    }
+
+    75% {
+        transform: rotate(270deg) translate(-200px, 200px);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(0, 0);
+    }
+}
+@keyframes rotatesec {
+    0% {
+        transform: rotate(270deg) translateX(0);
+    }
+    25% {
+        transform: rotate(220deg) translateX(200px);
+    }
+    50% {
+        transform: rotate(170deg) translateX(500px);
+    }
+    75% {
+        transform: rotate(120deg) translateX(700px);
+    }
+    100% {
+        transform: rotate(70deg) translateX(900px);
+    }
+}
+.sidebox {
     border-top: 10px solid #093f7d !important;
-   
+
 }
+
 .shadow {
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
 }
-.fw-semibold{
+
+.fw-semibold {
     font-weight: 500;
 }
-.airoplanecard{
+
+.airoplanecard {
     border: 2px solid #000;
     transition: all 1s ease;
 }
-.airoplanecard:focus{
+
+.airoplanecard:focus {
     border: 2px solid red !important;
 }
-.aironame{
+
+.aironame {
     position: absolute;
     top: 0;
     left: 7px;
     color: #eee;
-    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+    text-shadow: -2px 0 3px #333, 0 2px 3px #333, 2px 0 3px #333, 0 -2px 3px #333;
     z-index: 10;
 }
-.tags{
+
+.tags {
     position: absolute;
     bottom: 8px;
     left: 7px;
-   
+
 }
- .difficultyeasy{
-    color:#90ee90;
-    border-color:#90ee90;
-    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+
+.difficultyeasy {
+    color: #90ee90;
+    border-color: #90ee90;
+    text-shadow: -2px 0 3px #333, 0 2px 3px #333, 2px 0 3px #333, 0 -2px 3px #333;
     z-index: 10;
     transition: all 0.5s ease;
 }
- .difficultymedium{
-    color:#ff0;
-    border-color:#ff0;
-    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+
+.difficultymedium {
+    color: #ff0;
+    border-color: #ff0;
+    text-shadow: -2px 0 3px #333, 0 2px 3px #333, 2px 0 3px #333, 0 -2px 3px #333;
     z-index: 10;
     transition: all 0.5s ease;
 }
- .difficultyhard{
-    color:orange;
-    border-color:orange;
-    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+
+.difficultyhard {
+    color: orange;
+    border-color: orange;
+    text-shadow: -2px 0 3px #333, 0 2px 3px #333, 2px 0 3px #333, 0 -2px 3px #333;
     transition: all 0.5s ease;
     z-index: 10;
 }
- .difficultyexpert{
-    color:#ff6767;
-    border-color:#ff6767;
-    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+
+.difficultyexpert {
+    color: #ff6767;
+    border-color: #ff6767;
+    text-shadow: -2px 0 3px #333, 0 2px 3px #333, 2px 0 3px #333, 0 -2px 3px #333;
     transition: all 0.5s ease;
     z-index: 10;
 }
-.tags .distance{
+
+.tags .distance {
     transition: all 0.5s ease;
     color: #eee;
-    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+    text-shadow: -2px 0 3px #333, 0 2px 3px #333, 2px 0 3px #333, 0 -2px 3px #333;
 }
-.scissor{
+
+.scissor {
     position: absolute;
     top: 2px;
     right: 4px;
     color: #eee;
-    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+    text-shadow: -2px 0 3px #333, 0 2px 3px #333, 2px 0 3px #333, 0 -2px 3px #333;
 }
+
 .detailcard img {
     max-width: 250px;
     width: 100%;
@@ -174,70 +241,81 @@ body{
     border-radius: 3px;
     z-index: 12;
 }
-.airoplanecard:focus{
+
+.airoplanecard:focus {
     border: 2px solid red;
 }
-.airoplanecard:hover .airoplaneimg{
-    transform: translate(-50%, -50%)  rotate3d(1, 1, 0, 45deg) ;
-   
+
+.airoplanecard:hover .airoplaneimg {
+    transform: translate(-50%, -50%) rotate3d(1, 1, 0, 45deg);
+
 }
-.airoplaneimg{
+
+.airoplaneimg {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 260px;
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s ease-in-out;
 }
-.airoplanefly{
+
+.airoplanefly {
     position: absolute;
     bottom: -20px;
     right: -50px;
-    width: 120px; 
+    width: 120px;
     transform: rotate(10deg);
-    animation: flyAirplane 5s linear 1 ;
+    animation: flyAirplane 5s linear 1;
     z-index: 10;
 }
-.laungecard{
+
+.laungecard {
     background: url('../public/img/kid-with-paper-airplane.jpg');
     background-size: cover;
     background-position: bottom;
     min-height: 220px !important;
 }
 
-.footercard{
+.footercard {
     border-top: 10px solid #093f7d !important;
     font-size: 17px;
     padding: 12px;
 }
-.tabplane{
+
+.tabplane {
     transition: background-color 0.3s ease-in;
 }
-.tabplane.active{
+
+.tabplane.active {
     min-height: 50px;
     width: 200px;
     padding: 7px;
     margin: auto;
     border-bottom: 5px solid red;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0, 0, 0, .3);
     border-radius: 5px;
     cursor: pointer;
 }
-.stepscard{
+
+.stepscard {
     background-color: #093f7d !important;
     color: #fff;
     font-size: 17px;
     letter-spacing: 0.4px;
     cursor: pointer;
 }
-.stepscard img{
+
+.stepscard img {
     transition: all 0.4s ease;
 }
-.stepscard:hover img{
-    transform: scale(1.08) ;
+
+.stepscard:hover img {
+    transform: scale(1.08);
 }
-.kidCard{
-   transition: all 0.5s ease;
+
+.kidCard {
+    transition: all 0.5s ease;
 }
 
 
@@ -250,16 +328,23 @@ body{
     0% {
         transform: rotate3d(2, 1, 1, 10deg) translateX(0px) rotateX(0deg);
     }
+
     25% {
         transform: rotate3d(2, 1, 1, 12deg) translateX(-150px);
     }
+
     50% {
         transform: rotate3d(2, 1, 1, 10deg) translateX(-300px) rotateX(50deg);
     }
+
     75% {
         transform: rotate3d(2, 1, 1, 8deg) translateX(-600px) rotateX(10deg);
     }
+
     100% {
         transform: rotate3d(2, 1, 1, 3deg) translateX(-900px) rotateX(0deg);
     }
 }
+
+
+/* Define the animation for the card */
