@@ -82,14 +82,16 @@ const Airoplanes = () => {
                 onTypeChange={handleTypeChange}
               />
             </div>
-            <div className="col-lg-10">
+            <div className="col-lg-10 mt-3">
               <div className="row g-4" id="airocards">
                 {filterAirplanes.map((plane, index) => (
-                  <div className="col-lg-4" key={index}>
+                  <div className="col-12 col-md-6 col-lg-4" key={index}>
                     <div
                       className={`${
                         mode
-                          ? `kidCard position-relative card rounded-5 border-5 ${getDifficultyClass(plane.difficulty)}`
+                          ? `kidCard position-relative card rounded-5 border-5 ${getDifficultyClass(
+                              plane.difficulty
+                            )}`
                           : "airoplanecard card position-relative rounded-0"
                       }`}
                       style={{ cursor: "pointer", overflow: "hidden" }}
@@ -115,19 +117,24 @@ const Airoplanes = () => {
                           <FontAwesomeIcon icon={faScissors} />
                         </span>
                       )}
-
                       <div className="tags">
                         <span
-                          className={mode ? `difficultylevel x-large ${getDifficultyClass(
-                            plane.difficulty
-                          )}`:`difficultylevel big ${getDifficultyClass(
-                            plane.difficulty
-                          )}`}
+                          className={
+                            mode
+                              ? `difficultylevel x-large ${getDifficultyClass(
+                                  plane.difficulty
+                                )}`
+                              : `difficultylevel big ${getDifficultyClass(
+                                  plane.difficulty
+                                )}`
+                          }
                         >
                           {plane.difficulty}
                         </span>
                         <br />
-                        <span className={mode ? `x-big distance`:`distance small`}>
+                        <span
+                          className={mode ? `x-big distance` : `distance small`}
+                        >
                           <FontAwesomeIcon className="me-2" icon={faTag} />
                           {plane.distance}
                         </span>
