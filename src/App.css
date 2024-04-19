@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Noto Sans Display", sans-serif;
+    background-color: #fefefe;
+    background-image: -webkit-linear-gradient(#eef .1em, transparent .1em);
+    background-size: 100% 1.4em;
+}
+:root{
+    --light-color:#ffffff;
+    --main-color:#17569e;
+    --semilight-color:#7f7f7f;
+}
+.container{
+    max-width: 1150px !important;
+}
+.bg-light{
+    background-color: var(--light-color) !important;
+}
+.bg-main{
+    background-color: var(--main-color);
+}
+.bg-semilight{
+    background-color: var(--semilight-color);
+}
+.navbarlink{
+    letter-spacing: 0.7px;
+    font-weight: 600;
+}
+.navbarlink.active{
+    color: #0c0c0c !important;  
+}
+.text-secondary{
+    color: var(--semilight-color) !important;
+}
+.x-small{
+    font-size: 11px;
+}
+.small{
+    font-size: 13.6px;
+}
+.normal{
+    font-size: 14.4px;
+}
+.big{
+    font-size: 14.9px;
+}
+.x-big{
+    font-size: 16px;
+}
+.nav-item{
+    list-style: none !important;
+}
+.fontlondrina{
+    font-family: "Londrina Shadow", sans-serif;
+    font-weight: 400;
+    font-size: 39px;
+    text-shadow: 0 0 3px rgba(255,255,255,1);
+    letter-spacing: 2px;
+}
+.uppercard{
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, .1) 2px, transparent 2px), -webkit-linear-gradient(0deg, rgba(255, 255, 255, .1) 2px, transparent 2px), -webkit-linear-gradient(rgba(255, 255, 255, .1) 1px, transparent 1px), -webkit-linear-gradient(0deg, rgba(255, 255, 255, .1) 1px, transparent 1px);
+    background-size: 80px 80px, 80px 80px, 20px 20px, 20px 20px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    border: 3px solid #093f7d;
+}
+.air-icon{
+    top: 20px;
+    right: 20px;
+}
+.air-icon i{
+    font-size: 23px;
+    color: rgb(197, 197, 197);
+}
+.sidebox{
+    border-top: 10px solid #093f7d !important;
+   
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.fw-semibold{
+    font-weight: 500;
+}
+.airoplanecard{
+    border: 2px solid #000;
+    transition: all 1s ease;
+}
+.airoplanecard:focus{
+    border: 2px solid red !important;
+}
+.aironame{
+    position: absolute;
+    top: 0;
+    left: 7px;
+    color: #eee;
+    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+    z-index: 10;
+}
+.tags{
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+   
+}
+ .difficultyeasy{
+    color:#90ee90;
+    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+    z-index: 10;
+}
+ .difficultymedium{
+    color:#ff0;
+    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+    z-index: 10;
+}
+ .difficultyhard{
+    color:orange;
+    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+    z-index: 10;
+}
+ .difficultyexpert{
+    color:#ff6767;
+    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+    z-index: 10;
+}
+.tags .distance{
+    font-size: 14px;
+    color: #eee;
+    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+}
+.scissor{
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    color: #eee;
+    text-shadow: -2px 0 3px #333,0 2px 3px #333,2px 0 3px #333,0 -2px 3px #333;
+}
+.detailcard img {
+    max-width: 250px;
+    width: 100%;
+    position: relative;
+    height: auto;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    z-index: 12;
+}
+.airoplanecard:focus{
+    border: 2px solid red;
+}
+.airoplanecard:hover .airoplaneimg{
+    transform: translate(-50%, -50%)  rotate3d(1, 1, 0, 45deg) ;
+   
+}
+.airoplaneimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 260px;
+    transition: transform 0.3s ease-in-out; 
+}
+.airoplanefly{
+    position: absolute;
+    bottom: -20px;
+    right: -50px;
+    width: 120px; 
+    transform: rotate(10deg);
+    animation: flyAirplane 5s linear 1 ;
+    z-index: 10;
+}
+.laungecard{
+    background: url('../public/img/kid-with-paper-airplane.jpg');
+    background-size: cover;
+    background-position: bottom;
+    min-height: 220px !important;
+}
+
+.footercard{
+    border-top: 10px solid #093f7d !important;
+    font-size: 17px;
+    padding: 12px;
+}
+.tabplane{
+    transition: background-color 0.3s ease-in;
+}
+.tabplane.active{
+    min-height: 50px;
+    width: 200px;
+    padding: 7px;
+    margin: auto;
+    border-bottom: 5px solid red;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.stepscard{
+    background-color: #093f7d !important;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+}
+.stepscard img{
+    transition: all 0.4s ease;
+}
+.stepscard:hover img{
+    transform: scale(1.08) ;
+}
+
+
+
+
+
+
+
+@keyframes flyAirplane {
+    0% {
+        transform: rotate3d(2, 1, 1, 10deg) translateX(0px) rotateX(0deg);
+    }
+    25% {
+        transform: rotate3d(2, 1, 1, 12deg) translateX(-150px);
+    }
+    50% {
+        transform: rotate3d(2, 1, 1, 10deg) translateX(-300px) rotateX(50deg);
+    }
+    75% {
+        transform: rotate3d(2, 1, 1, 8deg) translateX(-600px) rotateX(10deg);
+    }
+    100% {
+        transform: rotate3d(2, 1, 1, 3deg) translateX(-900px) rotateX(0deg);
+    }
+}
