@@ -1,5 +1,5 @@
 import { faPaperPlane, faRoad } from "@fortawesome/free-solid-svg-icons";
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { useModeContext } from "../ModeContext";
@@ -7,9 +7,12 @@ import { useEffect } from "react";
 
 const Navbar = () => {
   const { mode, setMode } = useModeContext();
-  useEffect(() => {
-    console.log(mode);
-  }, [mode]);
+
+  const [activeTab, setActiveTab] = useState("Hangar");
+
+  const handleTabChange = (tab) => {
+    setActiveTab(tab);
+  };
 
   return (
     <>
@@ -41,7 +44,12 @@ const Navbar = () => {
             <ul className="navbar-nav mx-auto">
               <li className="nav-item position-relative mx-2">
                 <Link
-                  className="nav-link navbarlink active"
+                  onClick={() => handleTabChange("Hangar")}
+                  className={
+                    activeTab === "Hangar"
+                      ? `nav-link navbarlink active`
+                      : `nav-link navbarlink`
+                  }
                   aria-current="page"
                   to="/"
                 >
@@ -58,7 +66,15 @@ const Navbar = () => {
                 </span>
               </li>
               <li className="nav-item position-relative mx-2">
-                <Link className="nav-link navbarlink" to="/runway">
+                <Link
+                  onClick={() => handleTabChange("Runway")}
+                  className={
+                    activeTab === "Runway"
+                      ? `nav-link navbarlink active`
+                      : `nav-link navbarlink`
+                  }
+                  to="/runway"
+                >
                   <span className="me-2">
                     <FontAwesomeIcon icon={faRoad} />
                   </span>
@@ -72,7 +88,15 @@ const Navbar = () => {
                 </span>
               </li>
               <li className="nav-item position-relative mx-2">
-                <Link className="nav-link navbarlink" to="/launge">
+                <Link
+                  onClick={() => handleTabChange("Lounge")}
+                  className={
+                    activeTab === "Lounge"
+                      ? `nav-link navbarlink active`
+                      : `nav-link navbarlink`
+                  }
+                  to="/launge"
+                >
                   <span className="me-2">
                     <i className="bi bi-book"></i>
                   </span>
@@ -92,10 +116,7 @@ const Navbar = () => {
                   Sign in
                 </a>
               </li>
-              <div
-                className="form-check form-switch"
-                
-              >
+              <div className="form-check form-switch">
                 <input
                   className="form-check-input"
                   type="checkbox"
