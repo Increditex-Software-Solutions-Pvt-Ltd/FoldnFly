@@ -1,4 +1,4 @@
-import { faPaperPlane, faRoad } from "@fortawesome/free-solid-svg-icons";
+import { faBook, faBookOpen, faPaperPlane, faRoad } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
@@ -54,7 +54,7 @@ const Navbar = () => {
                   to="/"
                 >
                   <span className="me-2">
-                    <FontAwesomeIcon icon={faPaperPlane} />
+                    <FontAwesomeIcon icon={faPaperPlane} className={mode && activeTab==='Hangar'? 'text-danger':''}/>
                   </span>
                   Hangar
                 </Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
                   to="/runway"
                 >
                   <span className="me-2">
-                    <FontAwesomeIcon icon={faRoad} />
+                    <FontAwesomeIcon icon={faRoad} className={mode && activeTab==='Runway'? 'text-danger':''}/>
                   </span>
                   Runway
                 </Link>
@@ -98,7 +98,7 @@ const Navbar = () => {
                   to="/launge"
                 >
                   <span className="me-2">
-                    <i className="bi bi-book"></i>
+                      <FontAwesomeIcon icon={faBookOpen} className={mode && activeTab==='Lounge'? 'text-danger':''}/>
                   </span>
                   Lounge
                 </Link>
