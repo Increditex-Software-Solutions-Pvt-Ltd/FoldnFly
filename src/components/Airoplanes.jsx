@@ -72,7 +72,7 @@ const Airoplanes = () => {
       <section className="mt-4">
         <div className="container">
           <div className="row">
-            <div className="col-lg-2 col-md-4 col-sm-4">
+            <div className="col-lg-2 col-md-4 col-sm-12">
               <AiroplaneFilter
                 selectedTypes={selectedTypes}
                 selectedDifficulty={selectedDifficulty}
@@ -83,14 +83,14 @@ const Airoplanes = () => {
                 onTypeChange={handleTypeChange}
               />
             </div>
-            <div className="col-lg-10 col-md-8 col-sm-8 mt-3">
+            <div className="col-lg-10 col-md-8 col-sm-12 mt-3">
               <div className="row g-4" id="airocards">
                 {filterAirplanes.map((plane, index) => (
-                  <div className="col-12 col-sm-12 col-md-6 col-lg-4" key={index}>
+                  <div className="col-12 col-sm-6 col-md-6 col-lg-4" key={index}>
                     <div
                       className={`${
                         mode
-                          ? `kidCard position-relative card rounded-5 border-5 ${getDifficultyClass(
+                          ? `kidCard position-relative card rounded-5 border-4 ${getDifficultyClass(
                               plane.difficulty
                             )}`
                           : "airoplanecard card position-relative rounded-0"

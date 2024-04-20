@@ -317,7 +317,10 @@ body {
 .kidCard {
     transition: all 0.5s ease;
 }
-
+.border-top-dotted{
+    border-top: 1.5px dashed var(--main-color);
+    opacity: 0.7;
+}
 
 
 

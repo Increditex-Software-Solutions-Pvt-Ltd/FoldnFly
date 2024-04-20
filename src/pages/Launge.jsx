@@ -2,8 +2,10 @@ import React from 'react'
 import Headersection from '../components/Headersection'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlane } from '@fortawesome/free-solid-svg-icons'
+import { useModeContext } from '../ModeContext'
 
 const Launge = () => {
+    const {mode} = useModeContext();
     return (
         <>
             <Headersection title="Paper Airplane Lounge" information="The lounge is where you can find a bunch of fun paper airplane activities and experiments. Learn how paper airplanes work." />
@@ -11,7 +13,7 @@ const Launge = () => {
             <div className="container">
                 <div className="row mt-4">
                     <div className="col-lg-12">
-                        <div className="card rounded-0 h-100 shadow border-0 laungecard">
+                        <div className={mode? `card rounded-0 h-100 shadow border-3 border-danger laungecard`:`card rounded-0 h-100 shadow border-0 laungecard`}>
                             <div className="row">
                                 <div className="col-lg-10">
                                     <div className="normal p-3">

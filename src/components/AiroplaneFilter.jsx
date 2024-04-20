@@ -1,8 +1,11 @@
+import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react'
 
 const AiroplaneFilter = ({ airoplane, selectedTypes, onTypeChange, selectedDifficulty, onDifficultyChange, onScissorchange, useScissor }) => {
 
   const [count, setCount] = useState(airoplane.length);
+  const [showFilters, setShowFilters] = useState(false);
 
   const CalculateCount = () => {
     const filteredAirplanes = airoplane.filter((plane) => {
@@ -35,12 +38,37 @@ const AiroplaneFilter = ({ airoplane, selectedTypes, onTypeChange, selectedDiffi
   return (
     <div className="card rounded-0 border-0 bg-white shadow sidebox position-sticky top-0">
       <div className="card-body p-2">
-        <span className="text-dark fw-semibold big">Search Airplanes</span>
-        <span className="text-secondary small d-block">{count} out of {airoplane.length}</span>
-        <div className="row">
+        <div className="d-flex justify-content-between">
+          <div className="flex-column">
+            <span className="text-dark fw-semibold big">Search Airplanes</span>
+            <span className="text-secondary small d-block">{count} out of {airoplane.length}</span>
+          </div>
+
+          <div className="d-block d-sm-block d-md-none">
+            
+          <a
+        href="#filterPlane"
+        onClick={() => setShowFilters(!showFilters)}
+        className="text-dark small"
+        data-bs-toggle="collapse"
+      >
+        {showFilters ? (
+          <>
+            Hide Filters <FontAwesomeIcon icon={faEyeSlash} />
+          </>
+        ) : (
+          <>
+            Show Filters <FontAwesomeIcon icon={faEye} />
+          </>
+        )}
+      </a>
+          </div>
+        </div>
+
+        <div className="row" id="filterPlane">
           <div className="col-md-12">
             <div className="row">
-              <div className="col-md-12 col-sm-12 col-4">
+              <div className="col-md-12 col-sm-4 col-4">
                 <div className="mt-4">
                   <h6 className="text-dark fw-semibold small">Type</h6>
 
@@ -81,7 +109,7 @@ const AiroplaneFilter = ({ airoplane, selectedTypes, onTypeChange, selectedDiffi
                   </div>
                 </div>
               </div>
-              <div className="col-md-12 col-sm-12 col-4">
+              <div className="col-md-12 col-sm-4 col-3">
                 <div className="mt-4">
                   <h6 className="text-dark fw-semibold small">Difficulty</h6>
 
@@ -111,7 +139,7 @@ const AiroplaneFilter = ({ airoplane, selectedTypes, onTypeChange, selectedDiffi
                   </div>
                 </div>
               </div>
-              <div className="col-md-12 col-sm-12 col-4">
+              <div className="col-md-12 col-sm-4 col-5">
                 <div className="mt-4">
                   <h6 className="text-dark fw-semibold small">Scissors</h6>
 

@@ -1,9 +1,11 @@
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import { useModeContext } from '../ModeContext'
 
 const Instructions = ({ paperplane }) => {
 
+    const {mode} = useModeContext();
     const allButlastInstructions = paperplane.instructions.slice(0, -1);
     const lastInstruction = paperplane.instructions[paperplane.instructions.length - 1];
 
@@ -13,7 +15,7 @@ const Instructions = ({ paperplane }) => {
     }
     return (
         <div className="container">
-            <div className="card rounded-0 shadow">
+            <div className={mode ? `card rounded-0 shadow border-3 border-danger`:`card rounded-0 shadow`}>
                 <div className="card-body text-center p-4">
 
                     <div className="row">

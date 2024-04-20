@@ -1,9 +1,12 @@
 import React from 'react'
+import { useModeContext } from '../ModeContext'
 
 const Downloadprint = ({ paperplane }) => {
+  const {mode} = useModeContext();
+  
   return (
     <div className="container">
-      <div className="card rounded-0 shadow">
+      <div className={mode ? `card rounded-0 shadow border-3 border-danger`:`card rounded-0 shadow`}>
         <div className="card-body text-center p-4">
 
           <div className="row">
