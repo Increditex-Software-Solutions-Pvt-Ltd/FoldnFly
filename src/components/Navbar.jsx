@@ -10,9 +10,23 @@ const Navbar = () => {
 
   const [activeTab, setActiveTab] = useState("Hangar");
 
+  useEffect(()=>{
+    const savedMode = sessionStorage.getItem("mode");
+    if (savedMode !== null) {
+      // Set mode based on the value retrieved from session storage
+      setMode(savedMode === "true");
+    }
+  },[])
+
   const handleTabChange = (tab) => {
     setActiveTab(tab);
   };
+
+  const toggleMode =()=>{
+     const newMode = !mode;
+     setMode(newMode);
+     sessionStorage.setItem("mode",newMode)
+  }
 
   return (
     <>
@@ -124,7 +138,8 @@ const Navbar = () => {
                 type="checkbox"
                 role="switch"
                 id="flexSwitchCheckDefault"
-                onClick={() => setMode(!mode)}
+                onClick={toggleMode}
+                checked={mode}
               />
               <label
                 className="form-check-label small"
