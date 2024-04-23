@@ -266,7 +266,7 @@ body {
     right: -50px;
     width: 120px;
     transform: rotate(10deg);
-    animation: flyAirplane 5s linear 1;
+    animation: flyAirplane 2.3s linear 1;
     z-index: 10;
 }
 
