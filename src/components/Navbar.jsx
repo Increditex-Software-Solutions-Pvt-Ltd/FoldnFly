@@ -1,4 +1,4 @@
-import { faBook, faBookOpen, faPaperPlane, faRoad } from "@fortawesome/free-solid-svg-icons";
+import {  faBookOpen, faPaperPlane, faRoad } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
@@ -16,7 +16,7 @@ const Navbar = () => {
       // Set mode based on the value retrieved from session storage
       setMode(savedMode === "true");
     }
-  },[])
+  },[setMode])
 
   const handleTabChange = (tab) => {
     setActiveTab(tab);
@@ -35,14 +35,14 @@ const Navbar = () => {
         style={{ borderBottom: "2px solid #7b7bb8" }}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand">
             <img
               src="/img/logo.svg"
               className="img-fluid"
               width="90px"
               alt=""
             />
-          </a>
+          </Link>
           {/* <button
             className="navbar-toggler"
             type="button"
@@ -128,9 +128,9 @@ const Navbar = () => {
 
           <div className="d-flex flex-column mt-3">
             <li className="nav-item ">
-              <a href="" className="nav-link navbarlink text-center big">
+              <Link  className="nav-link navbarlink text-center big">
                 Sign in
-              </a>
+              </Link>
             </li>
             <div className="form-check form-switch">
               <input
